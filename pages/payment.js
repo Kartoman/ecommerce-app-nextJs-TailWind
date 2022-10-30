@@ -31,7 +31,7 @@ export default function PaymentScreen() {
 
     router.push("/placeorder");
   };
-  
+
   useEffect(() => {
     if (!shippingAddress.address) {
       return router.push("/shipping");
@@ -74,3 +74,5 @@ export default function PaymentScreen() {
     </Layout>
   );
 }
+
+PaymentScreen.auth = true;
