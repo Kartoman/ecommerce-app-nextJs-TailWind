@@ -43,7 +43,7 @@ function OrderScreen() {
       fetchOrder();
     }
   }, [order, orderId]);
-  
+
   const {
     shippingAddress,
     paymentMethod,
@@ -98,8 +98,8 @@ function OrderScreen() {
                 <thead className='border-b'>
                   <tr>
                     <th className='px-5 text-left'>Item</th>
-                    <th className='    p-5 text-right'>Quantity</th>
-                    <th className='  p-5 text-right'>Price</th>
+                    <th className='p-5 text-right'>Quantity</th>
+                    <th className='p-5 text-right'>Price</th>
                     <th className='p-5 text-right'>Subtotal</th>
                   </tr>
                 </thead>
@@ -132,7 +132,7 @@ function OrderScreen() {
             </div>
           </div>
           <div>
-            <div className='card  p-5'>
+            <div className='card p-5'>
               <h2 className='mb-2 text-lg'>Order Summary</h2>
               <ul>
                 <li>
